@@ -67,7 +67,6 @@
       <fileset dir="${basedir}/tools/target/dist/lib"/>
       <fileset dir="${basedir}/lib" includes="ruby/**/*.rb"/>
       <fileset dir="${basedir}/lib" includes="build/common-build.xml"/>
-      <fileset dir="${basedir}/demo/target/dist/lib"/>
       <fileset file="${basedir}/lib/testng.policy"/>
     </copy>
     <copy todir="${dist}/${artifact}-${version}" overwrite="true">
